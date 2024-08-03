@@ -8,7 +8,7 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7403534234:AAF4LeFDR0Apo8jCkOIck5Du4UV3hEVrXpI')
+bot = telebot.TeleBot('6976613634:AAHfHaUTOlWNd902qqwayxHES0BOK5m4-8c')
 
 # Admin user IDs
 admin_id = ["1193658274"]
@@ -153,7 +153,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = "You have not purchased yet purchase now from:- @SOURAVxDDOS."
+        response = "You have not purchased yet purchase now from:- @whitedevil457."
 
     bot.reply_to(message, response)
 
